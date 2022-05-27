@@ -18,3 +18,4 @@ see requirements.txt for complete information.
 
 ##### Run: python manage.py test
 
+##### Passes all 6 unit tests
