@@ -1,15 +1,14 @@
-# LAB - Class 31
-
 ## Project: snacks-api
 
-Containerized (Docker) small Django RESTful API
+Containerized (Docker) Django REST API
 
 ### Author: Polo Gonzalez
 
 ### Setup
-Run in container or stand alone.
 
-Container image uses Python Alpine (with bash added) to minimize weight.
+##### Django Rest Framework API
+
+Docker container uses Python Alpine image (with bash added) to minimize weight.
 
 #### Dependecies:
 
@@ -34,7 +33,7 @@ Use `docker compose run web bash` to add super user.
 
 ##### Run: python manage.py test
 
-##### Passes all 6 unit tests
+##### 6 unit tests
 
 Full CRUD functionality
 
